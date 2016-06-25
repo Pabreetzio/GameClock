@@ -1,5 +1,5 @@
 ﻿
-namespace XamarinPortable.Model
+namespace GameClock.Model
 {
     public class Stage
     {

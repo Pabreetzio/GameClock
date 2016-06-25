@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameClock.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,12 +14,20 @@ namespace GameClock
         {
             InitializeComponent();
 
-            MainPage = new GameClock.MainPage();
+            MainPage = new GameClock.Views.GameView();
         }
 
         protected override void OnStart()
         {
             // Handle when your app starts
+        }
+
+        private Game GetDefaultGame()
+        {
+            return new Game()
+            {
+                Name = "5 min"
+            };
         }
 
         protected override void OnSleep()

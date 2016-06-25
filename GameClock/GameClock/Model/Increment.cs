@@ -1,4 +1,4 @@
-﻿namespace XamarinPortable.Model
+﻿namespace GameClock.Model
 {
     public class Increment
     {

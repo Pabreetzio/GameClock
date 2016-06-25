@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace App1.Views
+namespace GameClock.Views
 {
     public partial class ConfigureGameView : ContentPage
     {

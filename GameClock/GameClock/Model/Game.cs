@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace XamarinPortable.Model
+namespace GameClock.Model
 {
     public class Game
     {
